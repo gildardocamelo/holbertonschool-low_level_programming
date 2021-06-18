@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char low_alph = 97
+	char low_alph = 97;
 		while (low_alph <= 122)
 		{
 			if (low_alph != 113 && low_alph != 101)
