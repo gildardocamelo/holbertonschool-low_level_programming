@@ -8,9 +8,9 @@
 
 int main(void)
 {
-int letter = 122;
+int rev_low_alph = 122;
 
-while (letter >= 97; letter ++)
+while (rev_low_alph >= 97; rev_low_alph++)
 putchar(letter);
 
 putchar('\n');
