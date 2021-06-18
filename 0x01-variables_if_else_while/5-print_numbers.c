@@ -8,16 +8,14 @@
 
 int main(void)
 {
-int num = 0;
+	int num = 0;
 
-while (num < 10)
+	while (num < 10)
+	{
+		printf("%d", num);
+		num++;
+	}
 
-{
-printf("%d", num);
-num++;
-}
-
-putchar ('\n');
-
-return (0);
+	putchar ('\n');
+	return (0);
 }

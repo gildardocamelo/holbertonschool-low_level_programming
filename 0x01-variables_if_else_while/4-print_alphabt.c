@@ -10,12 +10,14 @@
 int main(void)
 {
 	char low_alph = 97;
-		while (low_alph <= 122)
-		{
-			if (low_alph != 113 && low_alph != 101)
-				putchar (low_alph);
-			low_alph++;
-		}
+
+	while (low_alph <= 122)
+	{
+		if (low_alph != 113 && low_alph != 101)
+			putchar (low_alph);
+		low_alph++;
+	}
+
 	putchar ('\n');
 	return (0);
 }
