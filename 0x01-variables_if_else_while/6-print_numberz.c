@@ -8,11 +8,14 @@
 
 int main(void)
 {
-int num;
+int num = 0;
 
-for (num = 0; num < 10; num++)
+while (num < 10)
 
-putchar((num % 10) + '0');
+{
+putchar(num);
+num++;
+}
 
 putchar('\n');
 
