@@ -10,8 +10,10 @@ int main(void)
 {
 int rev_low_alph = 122;
 
-while (rev_low_alph >= 97; rev_low_alph++);
+while (rev_low_alph >= 97)
 putchar(rev_low_alph);
+
+rev_low_alph++
 
 putchar('\n');
 
