@@ -11,7 +11,7 @@ int main(void)
 int rev_low_alph = 122;
 
 while (rev_low_alph >= 97; rev_low_alph++)
-putchar(letter);
+putchar(rev_low_alph);
 
 putchar('\n');
 
