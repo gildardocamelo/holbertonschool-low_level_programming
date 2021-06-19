@@ -13,7 +13,7 @@ int main(void)
 	while (low_alph <= 122)
 	{
 		putchar(low_alph);
-		low_alph++
+		low_alph++;
 	}
 
 	putchar('\n');
