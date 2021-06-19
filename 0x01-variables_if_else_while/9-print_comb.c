@@ -13,9 +13,9 @@ int main(void)
 
 	while (num < 10)
 	{
-		putchar(num + '0');
+		putchar(num + 48);
 
-		if (i < 9)
+		if (num < 9)
 		{
 			putchar(44);
 			putchar(32);
