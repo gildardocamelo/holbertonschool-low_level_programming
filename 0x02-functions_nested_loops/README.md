@@ -44,20 +44,21 @@ abs` `Run` `man abs` `to learn more.`
 `starting from 00:00 to 23:59.` `prototype: void jack_bauer(void);`
 
 * 9-times_table.c `Function that prints the 9 times table, starting with 0.`
-`prototype` `void times_table(void);`
+`prototype: void times_table(void);`
 
-* 10-add.c `Function that adds two integers and returns the result.` `prototype`
-`int add(int, int);`
+* 10-add.c `Function that` `adds two integers and returns the result.`
+`prototype: int add(int, int);`
 
-* 11-print_to_98.c `Function that prints all` `natural numbers` `from` `n` `to`
-`98` `followed by a new line` `prototype` `void print_to_98(int n);` `numbers
+* 11-print_to_98.c `Function that prints` `all natural numbers` `from` `n` `to`
+`98` `followed by a new line` `prototype: void print_to_98(int n);` `numbers
 must be separated by a comma, followed by a space` `numbers should be printed
 in order` `The first printed number should be the number passed to your
-function` `The last printed number should be 98` `and` `You are allowed to use the
-standard library`
+function` `The last printed number should be 98` `and` `You are allowed to use
+the standard library`
 
 * holberton.h `Header file: prototypes of all functions and the _putchar
 function`
+
 
 
 > Full Stack Software Engineering - Holberton School
