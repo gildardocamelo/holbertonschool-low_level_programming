@@ -22,8 +22,8 @@ void print_alphabet_x10(void)
 			low_alph++;
 		}
 
-		_putchar('\n');
 		num++;
+		_putchar('\n');
 	}
 
 
