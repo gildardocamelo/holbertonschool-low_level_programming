@@ -14,17 +14,16 @@ void print_alphabet_x10(void)
 	char low_alph = 97;
 	int num = 0;
 
-	while (num <= 10)
+	for (num = 0; num <= 10; num++)
 	{
 
 		while (low_alph <= 122)
 		{
-			_putchar(low_alph + '0');
+			_putchar(low_alph);
 			low_alph++;
 
 		}
 
-		num++;
 		_putchar('\n');
 
 	}
