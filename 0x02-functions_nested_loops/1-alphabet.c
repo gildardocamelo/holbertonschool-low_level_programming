@@ -15,11 +15,10 @@ void print_alphabet(void)
 
 	while (low_alph <= 122)
 	{
-		putchar(low_alph);
+		_putchar(low_alph);
 		low_alph++;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 
-      
 }
