@@ -19,13 +19,13 @@ void print_alphabet_x10(void)
 
 		while (low_alph <= 122)
 		{
-			_putchar(low_alph);
+			_putchar(low_alph + '0');
 			low_alph++;
 
 		}
 
 		num++;
-		_putchar(low_alph + '0''\n');
+		_putchar('\n');
 
 	}
 
