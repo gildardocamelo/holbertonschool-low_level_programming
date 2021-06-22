@@ -8,14 +8,14 @@ functions nested loops.
 
 ### C programs with functions nested loops :monocle_face:
 
-* 0-holberton.c `Program that prints` `Holberton` `followed by a new line and`
+* 0-holberton.c `Program that prints` `Holberton,` `followed by a new line and`
 `return: 0.`
-* 1-alphabet.c `Function that prints the` `alphabet, in lowercase`
-`followed by a new line.``prototype` `void print_alphabet(void);` `and only
+* 1-alphabet.c `Function that prints` `the alphabet, in lowercase`
+`followed by a new line.` `prototype void print_alphabet(void);` `and only
 twice` `_putchar`
-* 2-print_alphabet_x10.c `Function that prints 10 times the`
-`alphabet, in lowercase` `followed by a new line.` `prototype`
-`void print_alphabet_x10(void);` `and only twice` `_putchar`
+* 2-print_alphabet_x10.c `Function that prints` `10 times` `the alphabet, in
+lowercase` `followed by a new line.` `prototype void print_alphabet_x10(void);`
+`and only twice` `_putchar`
 * 3-islower.c `Function that checks for` `lowercase character.` `prototype`
 `int _islower(int c);` `returns 1 if c lowercase` `and` `returns 0 otherwise.`
 `The standard library provides a similar `function: islower` `Run` `man islower`
