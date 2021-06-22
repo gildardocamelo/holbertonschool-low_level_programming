@@ -16,8 +16,9 @@ void print_alphabet_x10(void)
 
 	while (num < 10)
 	{
+		low_alph = 97;
 
-		while (low_alph <= 122)
+		while (low_alph < 122)
 		{
 
 			_putchar(low_alph);
