@@ -3,12 +3,12 @@
 /**
  * _isalpha - function that checks for alphabetic character.
  *
- * Description: allowed twice _putchar and not allowed to include standard
+ * Description: not allowed to include standard
  * libraries, pintf and puts.
  *
  *@c: character
  *
- * Return: 0 otherwise and 1 if letter, lowercase or uppercase
+ * Return: 0 if otherwise and 1 if letter, lowercase or uppercase
  */
 
 int _isalpha(int c)

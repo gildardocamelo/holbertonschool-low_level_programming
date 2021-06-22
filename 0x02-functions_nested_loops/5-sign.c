@@ -3,7 +3,7 @@
 /**
  * print_sign - function that checks for alphabetic character.
  *
- * Description: allowed twice _putchar and not allowed to include standard
+ * Description: not allowed to include standard
  * libraries, pintf and puts.
  *
  *@n: integer
