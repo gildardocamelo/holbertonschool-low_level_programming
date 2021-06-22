@@ -13,7 +13,7 @@ int main(void)
 	char string[] = "Holberton";
 	int num = 0;
 
-	while (string[num] < 9)
+	while (num < 9)
 	{
 		_putchar(string[num]);
 		num++;
