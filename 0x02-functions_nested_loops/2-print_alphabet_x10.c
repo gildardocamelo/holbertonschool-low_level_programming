@@ -12,12 +12,12 @@
 void print_alphabet_x10(void)
 {
 	char low_alph = 97;
-	int num = 0;
+	int num;
 
 	for (num = 0; num <= 10; num++)
 	{
 
-		while (low_alph <= 122)
+		if (low_alph <= 122)
 		{
 			_putchar(low_alph);
 			low_alph++;
