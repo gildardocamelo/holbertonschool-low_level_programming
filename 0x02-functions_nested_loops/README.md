@@ -1,1 +1,1 @@
-This file is a whitepaper
+This file is a whitepaper.
