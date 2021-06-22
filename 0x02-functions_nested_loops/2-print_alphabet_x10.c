@@ -6,7 +6,7 @@
  * Description: allowed twice _putchar and not allowed to include standard
  * libraries, pintf and puts.
  *
- * Return: 0
+ * @void: no argument
  */
 
 void print_alphabet_x10(void)
@@ -27,5 +27,5 @@ void print_alphabet_x10(void)
 
 	}
 
-	return (0);
+
 }
