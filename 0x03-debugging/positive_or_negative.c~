@@ -1,0 +1,28 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+#include "holberton.h"
+
+/**
+ * main - greater than, less than and equal to.
+ *
+ * Return: 0
+ */
+
+void postive_or_negative(int)
+{
+
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative\n", n);
+	}
+	else
+	{
+		printf("%d is zero\n", n);
+	}
+
+}
