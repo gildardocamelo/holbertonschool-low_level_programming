@@ -1,52 +1,27 @@
+#include <stdio.h>
 #include "holberton.h"
 
 /**
- * convert_day - converts day of month to day of year, without accounting
- * for leap year
- * @month: month in number format
- * @day: day of month
- * Return: day of year
+ * main - takes a date and prints how many days are left in the year, taking
+ * leap years into account
+ * Return: 0
  */
 
-int convert_day(int month, int day)
+int main(void)
 {
-	switch (month)
-	{
-	case 2:
-		day = 31 + day;
-		break;
-	case 3:
-		day = 60 + day;
-		break;
-	case 4:
-		day = 91 + day;
-		break;
-	case 5:
-		day = 121 + day;
-		break;
-	case 6:
-		day = 151 + day;
-		break;
-	case 7:
-		day = 182 + day;
-		break;
-	case 8:
-		day = 213 + day;
-		break;
-	case 9:
-		day = 244 + day;
-		break;
-	case 10:
-		day = 275 + day;
-		break;
-	case 11:
-		day = 306 + day;
-		break;
-	case 12:
-		day = 336 + day;
-		break;
-	default:
-		break;
-	}
-	return (day);
+	int month;
+	int day;
+	int year;
+
+	month = 2;
+	day = 29;
+	year = 2000;
+
+	printf("Date: %02d/%02d/%04d\n", month, day, year);
+
+	day = convert_day(month, day);
+
+	print_remaining_days(month, day, year);
+
+	return (0);
 }
